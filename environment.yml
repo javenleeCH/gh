@@ -3,3 +3,4 @@ dependencies:
   - pip:
     - scrapy 
     - django
+    - pandas

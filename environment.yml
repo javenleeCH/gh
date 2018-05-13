@@ -4,3 +4,4 @@ dependencies:
     - scrapy 
     - django
     - pandas
+    - baidu-aip

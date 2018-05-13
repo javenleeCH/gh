@@ -1,4 +1,4 @@
-RUN pip install --no-cache-dir jupyterlab
+RUN pip install --no-cache-dir notebook==5.*
 
 
 ENV NB_USER jovyan

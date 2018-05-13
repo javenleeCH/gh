@@ -1,5 +1,6 @@
-RUN pip install --no-cache-dir notebook==5.*
+RUN pip install --no-cache-dir jupyterlab
 
+FROM jupyter/scipy-notebook:cg6218237ff9
 
 ENV NB_USER jovyan
 ENV NB_UID 1000
